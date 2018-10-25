@@ -1,6 +1,6 @@
 define(function(require) {
     var Dialog = require('dialog');
-
+    var $ = require('jquery');
     $('button.aspect').on('click', function() {
         Dialog({
             title: '友情提示',

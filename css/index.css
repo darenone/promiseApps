@@ -6,6 +6,7 @@
     margin: 20px;
     overflow: hidden;
     position: relative;
+    /* background: #666666; */
 }
 
 .img-center img {
@@ -16,7 +17,7 @@
 .img-center img.aspectFill-x {
     width: 100%;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-10%);
 }
 
 .img-center img.aspectFill-y {
